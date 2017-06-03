@@ -1,0 +1,7 @@
+1、生成线程dump:  jstack 4388>c:\threaddump_1.txt
+	相关命令：netstat -ano | findstr 0:"9797"
+		tasklist
+
+2、生成堆dump:	jmap -dump:format=b,file=c:\heapdump.hprof <pid>
+
+3、linux:curl命令  curl https://www.baidu.com
